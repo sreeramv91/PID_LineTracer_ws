@@ -116,9 +116,7 @@ void motor_drive ( int right1,int right2,int left1,int left2)
  analogWrite(R1,0);
  analogWrite(L,225);
  analogWrite(L1,0);
- 
  p=0;
-
 }
 finished=millis();
 elapsed=finished-start;
